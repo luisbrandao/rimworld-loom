@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+  <WorkGiverDef>
+    <defName>DoBillsTableLoom</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>111</priorityInType>
+    <singleBillGiverDef>TableLoom</singleBillGiverDef>
+    <verb>make textile</verb>
+    <gerund>making textile at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</WorkGivers>

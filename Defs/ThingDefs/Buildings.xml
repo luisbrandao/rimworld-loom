@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <ThingDef ParentName="BuildingBase">
+    <DefName>TableLoom</DefName>
+    <label>tailor's loom</label>
+    <ThingClass>Building_WorkTable</ThingClass>
+    <Description>A tailor's table used recycle old apparels into usable cloth.</Description>
+    <graphicData>
+      <texPath>Buildings/TableLoom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,2)</drawSize>
+    </graphicData>
+    <CostList>
+      <WoodLog>20</WoodLog>
+      <Steel>50</Steel>
+      <Component>5</Component>
+    </CostList>
+    <constructEffect>ConstructWood</constructEffect>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToMake>2250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <Size>(3,2)</Size>
+    <DesignationCategory>Production</DesignationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <Passability>PassThroughOnly</Passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>RecycleApparel</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li>
+        <compClass>CompAffectedByFacilities</compClass>
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+    <researchPrerequisites>
+      <li>ComplexClothing</li>
+    </researchPrerequisites>
+  </ThingDef>
+</ThingDefs>

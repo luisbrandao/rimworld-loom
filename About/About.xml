@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Simple Loom</name>
+  <author>Techmago</author>
+  <url>https://github.com/techmago/rimworld-loom</url>
+	<targetVersion>0.17.1527</targetVersion>
+  <description>Simple mod that adds a loom, capable of recycling apparel</description>
+</ModMetaData>
+
+
+
