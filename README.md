@@ -1,26 +1,15 @@
-# rimworld-bootsnStuff
+# rimworld-loom
 
-github: https://github.com/techmago/rimworld-bootsnStuff
+github: https://github.com/techmago/rimworld-loom
 
-Simple Mod about Boots and Gloves and other Stuff. 
+Simple Mod thats add a loom capable of recycling apparels. This mod does nothing but that.
 
-Do you like RolePlaying? Yeah thats why you play Rimworld and thats why u need Boots and Stuff. 
 
-#Features 
+Notes:
+As far as I am aware of, there is no trivial way for me to define the output of the "recycling process", so I think a 100% apparel will give you 100% of the materials back. I know, a lossless operation isn't ideal, but there is not much I can do about this, and it is the main reason why I am making this a standalone mod.As far as i am aware of, there is no trivial way for me to define the output of the "recycling process", so i think a 100% apparel will give you 100% of the materials back. I know, a lossless operation isnt ideal, but there is not much i can do about this, and its the main reason why i am making this a standalone mod. 
 
-Rings Give Socialbuff 
-Boots Give Movementspeedbuff 
-Gloves Give Working/Mining Buff 
-
-#Compatible 
-
-No Issues 
 
 #Credits 
 
-Whoever 
-
-!WARNING! 
-
-Avoid Gold-rings and Jade-rings 
-they push your Value to much. Maybe because of? I have no Idea. ;)
+This mod is based off in the "mod variety pack" for rimworld A12:
+http://simon-82.github.io/ModVarietyPack/
