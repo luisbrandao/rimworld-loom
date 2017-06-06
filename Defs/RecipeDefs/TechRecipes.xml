@@ -28,7 +28,6 @@
       </categories>
       <exceptedThingDefs>
         <li>Apparel_PowerArmor</li>
-        <li>Apparel_PersonalShield</li>
         <li>Apparel_PowerArmorHelmet</li>
       </exceptedThingDefs>
     </fixedIngredientFilter>
