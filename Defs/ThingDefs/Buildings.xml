@@ -28,13 +28,10 @@
     <DesignationCategory>Production</DesignationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <Passability>PassThroughOnly</Passability>
-    <pathCost>60</pathCost>
+    <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-    <recipes>
-      <li>RecycleApparel</li>
-    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -42,8 +39,7 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <comps>
-      <li>
-        <compClass>CompAffectedByFacilities</compClass>
+      <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>ToolCabinet</li>
         </linkableFacilities>

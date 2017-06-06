@@ -2,14 +2,18 @@
 <WorkGivers>
   <WorkGiverDef>
     <defName>DoBillsTableLoom</defName>
+    <label>Recycle textile</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
-    <priorityInType>111</priorityInType>
-    <singleBillGiverDef>TableLoom</singleBillGiverDef>
-    <verb>make textile</verb>
-    <gerund>making textile at</gerund>
+    <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+  		<li>TableLoom</li>
+  	</fixedBillGiverDefs>
+    <verb>Recycle</verb>
+    <gerund>Recycleing textile at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
 </WorkGivers>
