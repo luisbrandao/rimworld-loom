@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
   <WorkGiverDef>
     <defName>DoBillsTableLoom</defName>
     <label>Recycle textile</label>
@@ -7,8 +7,8 @@
     <workType>Crafting</workType>
     <priorityInType>110</priorityInType>
     <fixedBillGiverDefs>
-  		<li>TableLoom</li>
-  	</fixedBillGiverDefs>
+      <li>TableLoom</li>
+    </fixedBillGiverDefs>
     <verb>Recycle</verb>
     <gerund>Recycleing textile at</gerund>
     <requiredCapacities>
@@ -16,4 +16,4 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-</WorkGivers>
+</Defs>

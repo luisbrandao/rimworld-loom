@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
-  <ThingDef ParentName="BuildingBase">
-    <DefName>TableLoom</DefName>
+<Defs>
+ <ThingDef ParentName="BedBase">
+    <defName>TableLoom</defName>
     <label>tailor's loom</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A tailor's table used recycle old apparels into usable cloth.</Description>
+    <description>A tailor's table used recycle old apparels into usable cloth.</description>
+    <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/TableLoom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3,2)</drawSize>
     </graphicData>
-    <CostList>
+    <costList>
       <WoodLog>20</WoodLog>
       <Steel>50</Steel>
       <Component>5</Component>
-    </CostList>
+    </costList>
     <constructEffect>ConstructWood</constructEffect>
-    <AltitudeLayer>Building</AltitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -24,10 +24,10 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(3,2)</Size>
-    <DesignationCategory>Production</DesignationCategory>
+    <size>(3,2)</size>
+    <designationCategory>Production</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <Passability>PassThroughOnly</Passability>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -61,4 +61,4 @@
       <li>Electricity</li>
     </researchPrerequisites>
   </ThingDef>
-</ThingDefs>
+</Defs>
