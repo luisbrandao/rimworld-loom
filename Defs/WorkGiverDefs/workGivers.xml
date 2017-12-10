@@ -7,7 +7,7 @@
     <workType>Crafting</workType>
     <priorityInType>110</priorityInType>
     <fixedBillGiverDefs>
-      <li>TableLoom</li>
+      <li>TechTableLoom</li>
     </fixedBillGiverDefs>
     <verb>Recycle</verb>
     <gerund>Recycleing textile at</gerund>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
  <ThingDef ParentName="BedBase">
-    <defName>TableLoom</defName>
+    <defName>TechTableLoom</defName>
     <label>tailor's loom</label>
     <description>A tailor's table used recycle old apparels into usable cloth.</description>
     <thingClass>Building_WorkTable</thingClass>

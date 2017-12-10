@@ -32,7 +32,7 @@
       </exceptedThingDefs>
     </fixedIngredientFilter>
     <recipeUsers>
-      <li>TableLoom</li>
+      <li>TechTableLoom</li>
     </recipeUsers>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
