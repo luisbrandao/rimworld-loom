@@ -9,27 +9,27 @@
     <workSpeedStat>TailoringSpeed</workSpeedStat>
     <effectWorking>Tailor</effectWorking>
     <soundWorking>Recipe_Tailor</soundWorking>
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
     <ingredients>
       <li>
         <filter>
           <categories>
             <li>Apparel</li>
           </categories>
+          <disallowedThingDefs>
+            <li>Apparel_PowerArmor</li>
+            <li>Apparel_PowerArmorHelmet</li>
+					</disallowedThingDefs>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
-    <specialProducts>
-      <li>Smelted</li>
-    </specialProducts>
     <fixedIngredientFilter>
       <categories>
         <li>Apparel</li>
       </categories>
-      <exceptedThingDefs>
-        <li>Apparel_PowerArmor</li>
-        <li>Apparel_PowerArmorHelmet</li>
-      </exceptedThingDefs>
     </fixedIngredientFilter>
     <recipeUsers>
       <li>TechTableLoom</li>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
- <ThingDef ParentName="BedBase">
+ <ThingDef ParentName="BenchBase">
     <defName>TechTableLoom</defName>
     <label>tailor's loom</label>
     <description>A tailor's table used recycle old apparels into usable cloth.</description>
@@ -8,19 +8,23 @@
     <graphicData>
       <texPath>Buildings/TableLoom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,2)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
     <costList>
       <WoodLog>20</WoodLog>
       <Steel>50</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <constructEffect>ConstructWood</constructEffect>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-      <WorkToBuild>2250</WorkToBuild>
+      <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -31,6 +35,7 @@
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
     <surfaceType>Item</surfaceType>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -42,7 +47,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>100</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
