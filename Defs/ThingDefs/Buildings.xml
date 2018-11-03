@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
- <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <defName>TechTableLoom</defName>
     <label>tailor's loom</label>
     <description>A tailor's table used recycle old apparels into usable cloth.</description>
@@ -8,9 +8,12 @@
     <graphicData>
       <texPath>Buildings/TableLoom</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>75</costStuffCount>
     <costList>
       <WoodLog>20</WoodLog>
       <Steel>50</Steel>
@@ -28,15 +31,14 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(3,2)</size>
+    <size>(2,2)</size>
     <designationCategory>Production</designationCategory>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
     <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -59,8 +61,8 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>ComplexClothing</li>
       <li>Electricity</li>
