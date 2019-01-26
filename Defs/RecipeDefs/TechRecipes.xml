@@ -18,10 +18,10 @@
           <categories>
             <li>Apparel</li>
           </categories>
-          <disallowedThingDefs>
+          <!-- <disallowedThingDefs>
             <li>Apparel_PowerArmor</li>
             <li>Apparel_PowerArmorHelmet</li>
-					</disallowedThingDefs>
+					</disallowedThingDefs> -->
         </filter>
         <count>1</count>
       </li>
