@@ -6,7 +6,7 @@
     <description>Shreds apparel and reforms into useable textiles. Output is based upon material used. Crafters do this low skilled Job.</description>
     <jobString>Recycling apparel.</jobString>
     <workAmount>800</workAmount>
-    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Tailor</effectWorking>
     <soundWorking>Recipe_Tailor</soundWorking>
     <specialProducts>
