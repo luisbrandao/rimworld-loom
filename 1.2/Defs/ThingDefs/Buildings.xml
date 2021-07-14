@@ -30,6 +30,7 @@
       <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>3.0</WorkTableWorkSpeedFactor>
     </statBases>
     <size>(2,2)</size>
     <designationCategory>Production</designationCategory>

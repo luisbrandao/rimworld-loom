@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>RecycleApparel</defName>
+    <label>Recycle apparel into useable textiles</label>
+    <description>Shreds apparel and reforms into useable textiles. Output is based upon material used. Crafters do this low skilled Job.</description>
+    <jobString>Recycling apparel.</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+          <!-- <disallowedThingDefs>
+            <li>Apparel_PowerArmor</li>
+            <li>Apparel_PowerArmorHelmet</li>
+					</disallowedThingDefs> -->
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>TechTableLoom</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+</Defs>
