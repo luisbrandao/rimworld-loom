@@ -61,7 +61,6 @@
     </placeWorkers>
     <researchPrerequisites>
       <li>ComplexClothing</li>
-      <li>Electricity</li>
     </researchPrerequisites>
   </ThingDef>
 </Defs>
